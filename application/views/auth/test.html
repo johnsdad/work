@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Time</title>
+</head>
+<body><br><br>
+<center><h3>Current Time Is:<span id="time"></span></h3></center><br><br>
+<center><h3>Current Time Is:<span id="time1"></span></h3></center>
+</body>
+<script type="text/javascript">
+	
+
+    var today = new Date();
+    document.getElementById('time').innerHTML=today;
+
+    var today = new Date().toLocaleString();
+    document.getElementById('time1').innerHTML=today;
+ 
+</script>
+</html>
